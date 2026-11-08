@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Inventos con Claude</title>
+<style>
+:root{--fondo:#eef1f5;--panel:#ffffff;--texto:#16202c;--suave:#5a6676;--linea:#d6dde6;--acento:#1f5ea8;
+ --word:#2b579a;--excel:#1d7044;--powerpoint:#c43e1c;--pdf:#b3261e;--html:#6b3fa0;--enlace:#0b7285;color-scheme:light}
+@media (prefers-color-scheme:dark){:root{--fondo:#0e141c;--panel:#17212d;--texto:#e6ecf2;--suave:#9aa7b6;
+ --linea:#2a3646;--acento:#7cb0f0;--word:#7aa3e6;--excel:#5cc48a;--powerpoint:#f08a68;--pdf:#f27b72;--html:#b996e8;--enlace:#4fc3d6;color-scheme:dark}}
+*{box-sizing:border-box}html,body{margin:0}
+body{background:var(--fondo);color:var(--texto);font:16px/1.5 -apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif}
+a{color:var(--acento)}
+.btn{display:inline-flex;align-items:center;gap:6px;border:1.5px solid var(--acento);color:var(--acento);background:transparent;
+ border-radius:7px;padding:6px 12px;font-size:.88rem;font-weight:600;text-decoration:none;white-space:nowrap}
+.btn.lleno{background:var(--acento);color:var(--panel)}
+.btn:hover{filter:brightness(1.1)}
+.chip{display:inline-block;font-size:.72rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:#fff;
+ border-radius:4px;padding:2px 7px;background:var(--suave)}
+.chip.word{background:var(--word)}.chip.excel{background:var(--excel)}.chip.powerpoint{background:var(--powerpoint)}
+.chip.pdf{background:var(--pdf)}.chip.html{background:var(--html)}.chip.enlace{background:var(--enlace)}
+@media (prefers-color-scheme:dark){.chip{color:#0e141c}}
+:focus-visible{outline:3px solid var(--acento);outline-offset:2px}
+
+.cab{background:var(--panel);border-bottom:1px solid var(--linea)}
+.cab .in{max-width:960px;margin:0 auto;padding:22px 16px 16px;display:flex;flex-direction:column;gap:6px}
+h1{font-size:clamp(1.4rem,4vw,2rem);margin:0;line-height:1.2;text-wrap:balance}
+.sub,.act{margin:0;color:var(--suave)} .act{font-size:.82rem}
+.herr{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-top:8px}
+.herr input{flex:1 1 220px;font:inherit;padding:8px 12px;border:1.5px solid var(--linea);border-radius:8px;background:var(--fondo);color:var(--texto)}
+.herr button{font:inherit;font-size:.82rem;border:1.5px solid var(--linea);background:var(--panel);color:var(--texto);border-radius:999px;padding:5px 12px;cursor:pointer}
+.herr button[aria-pressed="true"]{border-color:var(--acento);color:var(--acento);font-weight:700}
+main{max-width:960px;margin:0 auto;padding:18px 16px 50px;display:flex;flex-direction:column;gap:22px}
+h2{font-size:1rem;text-transform:uppercase;letter-spacing:.06em;color:var(--suave);margin:0 0 8px}
+ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:8px}
+.doc{background:var(--panel);border:1px solid var(--linea);border-radius:10px;padding:12px 14px;display:grid;
+ grid-template-columns:1fr auto;gap:4px 14px;align-items:center}
+.nom{font-weight:600;text-decoration:none;color:var(--texto);overflow-wrap:anywhere}
+.nom:hover{color:var(--acento)}
+.meta{font-size:.8rem;color:var(--suave);grid-column:1}
+.acc{grid-column:2;grid-row:1 / span 2;display:flex;flex-wrap:wrap;gap:6px;justify-content:flex-end}
+@media (max-width:640px){.doc{grid-template-columns:1fr}.acc{grid-column:1;grid-row:auto;justify-content:flex-start;margin-top:6px}}
+.vacio,.nada{color:var(--suave)}
+[hidden]{display:none !important}
+</style></head><body>
+<div class="cab"><div class="in">
+ <h1>Inventos con Claude</h1>
+ <p class="act">Último cambio: 08/11/2026 22:54 · 3 documentos</p>
+ <div class="herr"><label for="q" hidden>Buscar</label><input id="q" type="search" placeholder="Buscar documento…" autocomplete="off">
+ <button type="button" data-f="" aria-pressed="true">Todos</button><button type="button" data-f="word">Word</button><button type="button" data-f="excel">Excel</button><button type="button" data-f="pdf">PDF</button></div>
+</div></div>
+<main><section class="sec"><h2>Inventos con Claude Pro › Horarios de Medicina</h2><ul><li class="doc" data-tipo="excel" data-busca="damero_2_2026-27_v12 inventos con claude pro/horarios de medicina excel ">
+ <a class="nom" href="d/inventos-con-claude-pro-horarios-de-medicina-damero-2-2026-2/index.html"><span class="chip excel">Excel</span> Damero_2_2026-27_V12</a>
+ <span class="meta">Actualizado 08/11/2026 22:54 · 44 pág.</span>
+ <span class="acc"><a class="btn lleno" href="d/inventos-con-claude-pro-horarios-de-medicina-damero-2-2026-2/index.html">Ver</a><a class="btn" href="d/inventos-con-claude-pro-horarios-de-medicina-damero-2-2026-2/inventos-con-claude-pro-horarios-de-medicina-damero-2-2026-2.xlsx" download="Damero_2_2026-27_V12.xlsx">⬇ Original (XLSX)</a><a class="btn" href="d/inventos-con-claude-pro-horarios-de-medicina-damero-2-2026-2/inventos-con-claude-pro-horarios-de-medicina-damero-2-2026-2.pdf" download="Damero_2_2026-27_V12.pdf">⬇ PDF</a><a class="btn" href="d/inventos-con-claude-pro-horarios-de-medicina-damero-2-2026-2/inventos-con-claude-pro-horarios-de-medicina-damero-2-2026-2.pdf" target="_blank" rel="noopener">Abrir PDF</a></span></li><li class="doc" data-tipo="pdf" data-busca="pdff inventos con claude pro/horarios de medicina pdf ">
+ <a class="nom" href="d/inventos-con-claude-pro-horarios-de-medicina-pdff/index.html"><span class="chip pdf">PDF</span> pdff</a>
+ <span class="meta">Actualizado 08/11/2026 22:54 · 45 pág.</span>
+ <span class="acc"><a class="btn lleno" href="d/inventos-con-claude-pro-horarios-de-medicina-pdff/index.html">Ver</a><a class="btn" href="d/inventos-con-claude-pro-horarios-de-medicina-pdff/inventos-con-claude-pro-horarios-de-medicina-pdff.pdf" download="pdff.pdf">⬇ PDF</a><a class="btn" href="d/inventos-con-claude-pro-horarios-de-medicina-pdff/inventos-con-claude-pro-horarios-de-medicina-pdff.pdf" target="_blank" rel="noopener">Abrir PDF</a></span></li></ul></section><section class="sec"><h2>Inventos con Claude Pro › Horarios de Psicología</h2><ul><li class="doc" data-tipo="word" data-busca="1o psicologia 2627_v13 inventos con claude pro/horarios de psicologia word ">
+ <a class="nom" href="d/inventos-con-claude-pro-horarios-de-psicologia-1o-psicologia/index.html"><span class="chip word">Word</span> 1º Psicología 2627_v13</a>
+ <span class="meta">Actualizado 08/11/2026 21:43 · 17 pág.</span>
+ <span class="acc"><a class="btn lleno" href="d/inventos-con-claude-pro-horarios-de-psicologia-1o-psicologia/index.html">Ver</a><a class="btn" href="d/inventos-con-claude-pro-horarios-de-psicologia-1o-psicologia/inventos-con-claude-pro-horarios-de-psicologia-1o-psicologia.docx" download="1º Psicología 2627_v13.docx">⬇ Original (DOCX)</a><a class="btn" href="d/inventos-con-claude-pro-horarios-de-psicologia-1o-psicologia/inventos-con-claude-pro-horarios-de-psicologia-1o-psicologia.pdf" download="1º Psicología 2627_v13.pdf">⬇ PDF</a><a class="btn" href="d/inventos-con-claude-pro-horarios-de-psicologia-1o-psicologia/inventos-con-claude-pro-horarios-de-psicologia-1o-psicologia.pdf" target="_blank" rel="noopener">Abrir PDF</a></span></li></ul></section><p class="nada" id="nada" hidden>Ningún documento coincide con la búsqueda.</p></main>
+<script>
+(function(){
+ var q=document.getElementById('q'),f='',bs=[].slice.call(document.querySelectorAll('[data-f]'));
+ function norm(t){return t.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();}
+ function aplicar(){
+  var t=norm(q.value.trim()),n=0;
+  document.querySelectorAll('.doc').forEach(function(li){
+   var ok=(!f||li.dataset.tipo===f)&&(!t||li.dataset.busca.indexOf(t)>=0);li.hidden=!ok;if(ok)n++;});
+  document.querySelectorAll('.sec').forEach(function(s){s.hidden=!s.querySelector('.doc:not([hidden])');});
+  document.getElementById('nada').hidden=n>0||!document.querySelector('.doc');
+ }
+ q.addEventListener('input',aplicar);
+ bs.forEach(function(b){b.addEventListener('click',function(){f=b.dataset.f;bs.forEach(function(x){x.setAttribute('aria-pressed',x===b?'true':'false');});aplicar();});});
+})();
+</script></body></html>
